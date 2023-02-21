@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#header-image {
+  background-image: url("/assets/images/image-header-desktop.jpg");
+}
+@media screen and (max-width: 1024px) {
+  #header-image {
+    background-image: url("/assets/images/image-header-mobile.jpg");
+  }
+}/*# sourceMappingURL=main.css.map */
